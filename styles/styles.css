@@ -28,6 +28,30 @@ body {
   margin: 0 auto;
 }
 
+/* Button */
+
+.button {
+  padding: 10px 37px 10px 37px;
+  border-radius: 100px;
+  background-color: #ee8542;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:focus {
+  opacity: 0.7;
+  outline: 3px solid #4f4844;
+}
+
 /* Header */
 
 .header-location {
@@ -80,7 +104,7 @@ body {
   margin-left: 310px;
 }
 
-.header-logo-link:focus{
+.header-logo-link:focus {
   outline: none;
 }
 
@@ -95,7 +119,7 @@ body {
   padding: 0;
   margin: 0;
   padding-top: 20px;
-  padding-bottom: 23px;
+  padding-bottom: 25px;
 }
 
 .navigation-item:not(:last-child) {
@@ -167,4 +191,105 @@ body {
   font-size: 24px;
   cursor: pointer;
   z-index: 1001;
+}
+
+/* Billboard */
+
+.billboard {
+  background-image: url("../images/decorative/billboard.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 665px;
+  width: 100%;
+}
+
+.billboard-wrapper {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  position: relative;
+  top: 526px;
+  display: flex;
+  border: 1px solid #d2cfcc;
+}
+
+.billboard-info {
+  width: 770px;
+  padding-left: 53px;
+  padding-top: 36px;
+  padding-bottom: 43px;
+  box-sizing: border-box;
+}
+
+.billboard-time {
+  width: 530px;
+  padding-left: 53px;
+  padding-top: 36px;
+  padding-bottom: 98px;
+  padding-right: 77px;
+  box-sizing: border-box;
+}
+
+.billboard-header {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 53px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  padding-bottom: 11px;
+}
+
+.billboard-time .billboard-header {
+  padding-bottom: 5px;
+}
+
+.billboard-text {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 31px;
+  margin: 0;
+  padding: 0;
+  padding-right: 89px;
+  padding-bottom: 25px;
+}
+
+.billboard-time-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 0;
+}
+
+.billboard-time-info {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.billboard-item:nth-child(2n) {
+  justify-self: flex-end;
+}
+
+.billboard-item {
+  display: flex;
+  align-items: baseline;
+}
+
+.billboard-item:nth-child(odd)::after {
+  content: "";
+  flex-grow: 1;
+  margin-right: -30px;
+  border: none;
+  height: 1px;
+  background-image: repeating-linear-gradient(
+    to right,
+    currentColor 0 2px,
+    transparent 2px 6px
+  );
 }
