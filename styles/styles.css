@@ -80,6 +80,10 @@ body {
   margin-left: 310px;
 }
 
+.header-logo-link:focus{
+  outline: none;
+}
+
 .navigation {
   margin-left: 549px;
 }
