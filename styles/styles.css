@@ -417,7 +417,7 @@ body {
   width: 1300px;
   margin: 0 auto;
   padding-top: 180px;
-  padding-bottom: 180px;
+  padding-bottom: 171px;
 }
 
 .our-menu-header {
@@ -512,4 +512,81 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
+}
+
+/* Reservation */
+
+.reservation {
+  width: 1920px;
+  display: flex;
+}
+
+.reservation-img {
+  width: 960px;
+}
+
+.reservation-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  padding-top: 133px;
+  padding-left: 204px;
+}
+
+.reservation-header {
+  font-family: 'Bebas Neue';
+  font-size: 104px;
+  font-weight: 400;
+  line-height: 125px;
+  letter-spacing: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.reservation-text {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+  padding: 0;
+  width: 457px;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.reservation-select {
+  background-color: inherit;
+  width: 503px;
+  border: none;
+  border-bottom: 1px solid rgba(217, 217, 217, 1);
+  color: inherit;
+  margin-top: 18px;
+  padding-bottom: 2px;
+  font-style: italic;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  background-image: url('../images/icons/arrow-down.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  cursor: pointer;
+  appearance: none;
+}
+
+.reservation-select:focus {
+  outline: none;
+}
+
+.reservation-select:active {
+  outline: none;
+}
+
+.button-wrapper {
+  padding-top: 38px;
 }
