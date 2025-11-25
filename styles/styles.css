@@ -744,3 +744,20 @@ body {
 .articles .button {
   align-self: center;
 }
+
+
+/* Gallery */
+
+.gallery {
+  width: 1920px;
+  display: grid;
+  grid-template-columns: repeat(6, 303px);
+  gap: 21px 20px;
+  margin: 0 auto;
+}
+
+.gallery-img {
+  width: 303px;
+  height: 303px;
+  object-fit: cover;
+}
