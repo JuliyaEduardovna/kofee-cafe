@@ -764,10 +764,11 @@ body {
 /* Brands */
 
 .brands {
-  padding-top: 160px;
+  padding-top: 126px;
   display: flex;
   justify-content: center;
   gap: 121px;
+  align-items: baseline;
 }
 
 .brands-wrapper svg path {
@@ -776,4 +777,87 @@ body {
 
 .brands-wrapper:hover svg path {
   fill: #ee8542;
+}
+
+/* Footer */
+
+.page-footer {
+  padding-top: 98px;
+  width: 1235px;
+
+  margin-left: 310px;
+  margin-right: 375px;
+
+  display: grid;
+  grid-template-columns: 310px auto;
+}
+
+.information {
+  margin-top: 19px;
+}
+
+.information-text {
+  margin: 0;
+  padding: 0;
+  padding-top: 13px;
+  line-height: 27px;
+  padding-bottom: 9px;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer .navigation-list {
+  flex-direction: column;
+  width: auto;
+  row-gap: 10px;
+  display: block;
+}
+
+.page-footer .navigation-item {
+  margin: 0;
+  padding-bottom: 9px;
+}
+
+.contacts-list {
+  list-style-type: none;
+  display: flex;
+  margin-top: 10px;
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 26px;
+}
+
+.page-footer .navigation-list {
+  width: auto;
+}
+
+.footer-info-wrapper {
+  display: flex;
+  width: 925px;
+  margin-left: 65px;
+}
+
+.address-location {
+  margin-left: 79px;
+}
+
+.address-location:last-child {
+  margin-left: 89px;
+}
+
+.contacts-link svg path {
+  fill: rgba(221, 218, 213, 1);
+}
+
+.contacts-link:hover svg path {
+  fill: #ee8542;
+}
+
+.page-footer .header-logo-link {
+  margin: 0;
+  padding: 0;
 }
