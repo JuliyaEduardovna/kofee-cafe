@@ -705,14 +705,15 @@ body {
   padding-bottom: 61px;
 }
 
-.articles-item {
+.articles-link {
   display: flex;
   row-gap: 15px;
   align-items: center;
   flex-wrap: wrap;
-
+  text-decoration: none;
   border-bottom: 1px solid rgba(210, 207, 204, 1);
   padding: 15px 0 16px 0;
+  color: #4f4844;
 }
 
 .articles-item:first-child {
