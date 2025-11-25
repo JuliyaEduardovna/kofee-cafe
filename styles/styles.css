@@ -745,7 +745,6 @@ body {
   align-self: center;
 }
 
-
 /* Gallery */
 
 .gallery {
@@ -760,4 +759,21 @@ body {
   width: 303px;
   height: 303px;
   object-fit: cover;
+}
+
+/* Brands */
+
+.brands {
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+  gap: 121px;
+}
+
+.brands-wrapper svg path {
+  fill: #dddad5;
+}
+
+.brands-wrapper:hover svg path {
+  fill: #ee8542;
 }
