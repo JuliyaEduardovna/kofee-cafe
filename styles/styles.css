@@ -663,3 +663,84 @@ body {
 .page:not(.active):active {
   background: rgba(238, 133, 66, 1);
 }
+
+/* New Articles */
+
+.articles {
+  width: 860px;
+  margin: 0 auto;
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 180px;
+}
+
+.articles-header {
+  font-family: 'Bebas Neue';
+  font-size: 104px;
+  font-weight: 400;
+  line-height: 125px;
+  letter-spacing: 4px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.articles-text {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+  padding: 0;
+  width: 457px;
+  margin-left: 160px;
+}
+
+.articles-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
+  padding-bottom: 61px;
+}
+
+.articles-item {
+  display: flex;
+  row-gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border-bottom: 1px solid rgba(210, 207, 204, 1);
+  padding: 15px 0 16px 0;
+}
+
+.articles-item:first-child {
+  border-top: 1px solid rgba(210, 207, 204, 1);
+}
+
+.post-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.articles-post-category {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.articles-post-header {
+  font-family: inherit;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 43px;
+  margin: 0;
+  padding: 0;
+}
+
+.articles .button {
+  align-self: center;
+}
